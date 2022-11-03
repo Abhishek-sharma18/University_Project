@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200;300;400;600;700&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>World's Biggest University</title>
+</head>
+
+<body>
+    <!--------header section of the page-------->
+
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="logo"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+
+
+    <!-- java script for header section  -->
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks")
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px ";
+        }
+    </script>
+
+
+    <!-- ------blog page content----- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left"><img src="certificate.jpg" alt="">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro mollitia modi, corrupti velit maiores
+                    accusantium dicta magni odio reprehenderit nihil numquam ab! Quam laboriosam cumque aliquid id
+                    blanditiis tenetur molestiae.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nulla, fugiat ex culpa mollitia
+                    explicabo omnis molestias animi quod qui maiores reprehenderit eaque cum adipisci eum tempore, quia
+                    sint voluptate consectetur, perferendis ut. Eveniet ex, nemo veniam nisi maxime enim expedita et a
+                    deserunt quo alias dolorum laboriosam totam, quia nihil labore sunt dolorem. Labore iure nisi cumque
+                    quo excepturi aspernatur quis numquam, exercitationem nostrum sunt eius eos et fuga. Suscipit sit
+                    velit vitae quod magni atque accusamus animi, nesciunt unde rerum, necessitatibus, inventore
+                    eligendi labore ratione adipisci blanditiis. Consequatur enim temporibus itaque voluptate quibusdam
+                    similique, deserunt atque fugiat nobis. Soluta assumenda saepe inventore possimus vitae tempora
+                    minus modi sint, commodi sapiente aut nam qui officia voluptatibus ab eaque necessitatibus at
+                    dolore. Itaque hic tempora fugit! Amet eaque necessitatibus molestiae inventore natus, quidem illo
+                    exercitationem assumenda nobis perferendis consectetur quae porro iure vero sapiente fugiat neque
+                    dignissimos qui. Cumque voluptatibus maxime hic sit molestiae necessitatibus eius, architecto quo
+                    alias, numquam, quod doloremque. Facilis eos dolor voluptatum dolorem distinctio? Tenetur qui
+                    quaerat a eos ipsa nostrum cumque deleniti est? Qui nostrum obcaecati consequuntur molestias,
+                    voluptatibus assumenda commodi dolorem maiores vel perspiciatis. Accusamus veniam sed recusandae
+                    accusantium dolorum ratione magni laudantium neque?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quaerat, necessitatibus iure illum dolor
+                    esse nemo modi iusto assumenda praesentium, voluptatum dolorum ex facere? Iste, nemo. Libero autem
+                    quidem dicta dolore. Fugit reprehenderit odit cupiditate suscipit ipsa eveniet illo distinctio eius
+                    harum ducimus, sit provident quisquam, sed incidunt repellendus repellat quis officia in dignissimos
+                    deserunt? Eos quas molestiae voluptas fuga et eius, cumque consectetur. Vel et sit incidunt
+                    asperiores suscipit assumenda numquam provident consequatur? Eum.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur voluptatibus placeat a nostrum
+                    obcaecati aperiam culpa nihil ullam, hic, rerum harum maiores dolorum aliquid voluptas magnam
+                    provident tempore! Repellat, qui? Obcaecati cumque veniam earum maiores delectus amet ullam optio
+                    illo iure laborum eos, rerum nisi eum exercitationem at unde officiis.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Mail">
+                        <textarea name="" id="" rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">SUBMIT</button>
+                    </form>
+                </div>
+
+
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Scientist</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>13</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------- footer ------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, facere. Consequuntur quae optio iure maiores
+            eaque recusandae,<br> deserunt similique natus, sequi fugit eos asperiores odit aperiam voluptates rerum
+            dolor
+            eum.</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-telegram"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Abhishek Sharma</p>
+    </section>
+</body>
+
+</html>
